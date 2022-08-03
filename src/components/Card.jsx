@@ -5,7 +5,7 @@ export default function Card(props) {
 
   return (
     <>
-      <div className="flex justify-center">
+      <div className="grid justify-center ">
         <div className=" text-textDarkBlue flex flex-col md:flex-row md:max-w-xl   p-6 space-y-3 my-3 md:border md:border-b-gray-300 ">
           <div className="w-full md:h-auto object-cover md:w-48   md:flex md:justify-end">
             <img className="w-full md:w-52 " src={str.imageUrl} alt="" />
